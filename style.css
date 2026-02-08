@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-color: white;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:  10px 30px;
+
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+.headbtn{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.hero{
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sec1{
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid black; */
+}
+.sec1 button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
+    margin-top: 60px;
+}
+
+.sec1 h4{
+    font-size: larger;
+}
+.sec2{
+    height: 400px;
+    width: 500px;
+    /* border: 2px solid black; */
+}
+
+.sec2 img{
+    height: 400px;
+}
+
+.sec3 img{
+    margin-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.section4{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    
+}
+ 
+.text1{
+    padding-left: 100px;
+}
+.text1 h1{
+    background-color: #B9ff66;
+    display: inline-block;
+}
+.text1 p{
+    padding-left: 30px;
+    display: inline-block;
+    font-size: smaller;
+}
+.section5{
+    width: 100%;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    margin-top:80px ;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #B9ff66;
+}
