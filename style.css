@@ -21,7 +21,7 @@
     margin-left:250px;
   }
   .btn-wrap{
-    margin-left:50px;   /* 👈 yahin se adjust karo */
+    margin-left:50px;   
   }
   
   .navbar nav a{
@@ -39,16 +39,34 @@
     cursor:pointer;
     font-size: 16px;
   }
-  
-  /* HERO */
   .hero{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    align-items:center;
-    padding:50px;
+    width: 100%;
+    height: 1000px;
+    border: 2px solid;
+    display: flex;
+    display:flex;
+    /* display:grid; */
+    /* display: flex;
+    justify-content: space-around; */
+    /* grid-template-columns:1fr 1fr; */
+    /* align-items:center; */
+    /* padding:50px; */
   }
   
-  .hero-left h1{
+  /* HERO */
+  .hero-left{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+  }
+  .hero-right{
+    width: 400px;
+    height: 400px;
+    border: 2px solid black;
+  }
+
+  
+  /* .hero-left h1{
     font-size:50px;
     font-weight:700;
     margin-bottom:20px;
@@ -60,7 +78,7 @@
     margin-bottom:25px;
     max-width:420px;
   }
-  
+   */
   .main-btn{
     background:#111;
     color:#fff;
@@ -70,11 +88,11 @@
     cursor:pointer;
   }
   
-  /* IMAGE */
+  /* IMAGE
   .hero-right img{
     width:100%;
     max-width:500px;
-  }
+  } */
   
   /* BRANDS */
   .brands{
@@ -772,4 +790,4 @@
       max-width:100%;
     }
   
-  }
+  
